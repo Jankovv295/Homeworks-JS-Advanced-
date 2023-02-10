@@ -1,4 +1,4 @@
-const url = "https://fakestoreapi.com/products/category/electronics";
+const url = "https://fakestoreapi.com/products/category/jewelery";
 
 function setData(key, data) {
   let dataToSave = typeof data == "object" ? JSON.stringify(data) : data;
