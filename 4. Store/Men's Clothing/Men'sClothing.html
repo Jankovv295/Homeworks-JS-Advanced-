@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="x-icon" href="../images/eshop.png" />
+    <link rel="stylesheet" href="../main.css" />
+    <title>E-shop</title>
+
+    <style>
+      .product {
+        margin: 2% 2%;
+        width: 28%;
+      }
+
+      #coverPicElectronics {
+        width: 100%;
+        height: 400px;
+      }
+
+      .hero {
+        position: relative;
+        background-image: url(../images/mensClothing.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        height: 400px;
+      }
+
+      .heroContent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(250, 250, 250);
+        font-weight: 700;
+        font-size: 7rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div>
+          <a href="../Home/Home.html"
+            ><img
+              src="../images/eshop.png"
+              width="25%"
+              alt="eshop Logo"
+              class="logo"
+          /></a>
+        </div>
+        <a
+          href="../Electronics/electronics.html"
+          class="categories"
+          id="electronics"
+          >Electronics</a
+        >
+        <a href="../Jewelery/jewelery.html" class="categories" id="jewelery"
+          >Jewelery</a
+        >
+        <a href="./Men'sClothing.html " class="categories" id="mensClothing"
+          >Men's Clothing</a
+        >
+        <a
+          href="../Women's Clothing/women'sClothing.html"
+          class="categories"
+          id="womensClothing"
+          >Women's Clothing</a
+        >
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="heroContent">Men's Clothing</div>
+      <div class="overlay"></div>
+    </div>
+
+    <!-- el id 0 -->
+    <div class="product">
+      <h3 id="titleBackpack"></h3>
+      <img
+        src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+        width="60%"
+        id="imgBackpack"
+      />
+      <p id="priceBackpack"><b>Price: </b></p>
+      <p id="ratingBackpack"><b>Consumer rate: </b></p>
+      <p id="descBackpack"><b>Description: </b></p>
+    </div>
+    <br />
+
+    <!-- el id 1 -->
+    <div class="product">
+      <h3 id="titleSlimFitTshirt"></h3>
+      <img
+        src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+        width="60%"
+        id="imgSlimFitTshirt"
+      />
+      <p id="priceSlimFitTshirt"><b>Price: </b></p>
+      <p id="ratingSlimFitTshirt"><b>Consumer rate: </b></p>
+      <p id="descSlimFitTshirt"><b>Description: </b></p>
+    </div>
+    <br />
+
+    <!-- el id 2 -->
+    <div class="product">
+      <h3 id="titleCottonJacket"></h3>
+      <img
+        src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+        width="60%"
+        id="imgCottonJacket"
+      />
+      <p id="priceCottonJacket"><b>Price: </b></p>
+      <p id="ratingCottonJacket"><b>Consumer rate: </b></p>
+      <p id="descCottonJacket"><b>Description: </b></p>
+    </div>
+    <br />
+
+    <!-- el id 3 -->
+    <div class="product">
+      <h3 id="titleCasualSlimFit"></h3>
+      <img
+        src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+        width="60%"
+        alt="Pierced Owl"
+        id="imgCasualSlimFit"
+      />
+      <p id="priceCasualSlimFit"><b>Price: </b></p>
+      <p id="ratingCasualSlimFit"><b>Consumer rate: </b></p>
+      <p id="descCasualSlimFit"><b>Description: </b></p>
+    </div>
+    <br />
+    <br />
+
+    <footer class="footer">
+      <p>
+        &#169; <span>Made by <a href="#">Jankov V.</a></span>
+        All rights reserved.
+      </p>
+    </footer>
+    <!-- <script src="../script.js"></script> -->
+    <script src="./men'sClothing.js"></script>
+  </body>
+</html>

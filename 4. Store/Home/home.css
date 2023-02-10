@@ -1,0 +1,50 @@
+
+
+.electronicsHero {
+    background-image: url(../images/electronics.jpg);
+    position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    
+}
+
+.jeweleryHero {
+    background-image: url(../images/jewelery.jpg);
+    position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        height: 400px;
+}
+    
+.mensClothingHero{
+    background-image: url(../images/mensClothing.jpg);
+        position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+}
+
+.womensClothingHero{
+    background-image: url(../images/womensClothing.jpg);
+        position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+}
+
+.HeroContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 7rem;
+}
+

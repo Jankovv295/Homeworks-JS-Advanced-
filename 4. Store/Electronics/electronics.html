@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="x-icon" href="../images/eshop.png" />
+    <link rel="stylesheet" href="../main.css" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <title>E-shop</title>
+
+    <style>
+      .product {
+        margin: 2% 2%;
+        width: 28%;
+      }
+
+      #coverPicElectronics {
+        width: 100%;
+        height: 400px;
+      }
+
+      .hero {
+        position: relative;
+        background-image: url(../images/electronics.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+      }
+
+      .heroContent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: antiquewhite;
+        font-weight: 700;
+        font-size: 7rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a href="../Home/Home.html"
+            ><img
+              src="../images/eshop.png"
+              width="20%"
+              alt="eshop Logo"
+              id="logo"
+          /></a>
+        </div>
+        <a href="./electronics.html" class="categories" id="electronics"
+          >Electronics</a
+        >
+        <a href="../Jewelery/jewelery.html" class="categories" id="jewelery"
+          >Jewelery</a
+        >
+        <a
+          href="../Men's Clothing/Men'sClothing.html"
+          class="categories"
+          id="mensClothing"
+          >Men's Clothing</a
+        >
+        <a
+          href="../Women's Clothing/women'sClothing.html"
+          class="categories"
+          id="womensClothing"
+          >Women's Clothing</a
+        >
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="heroContent">Electronics</div>
+      <div class="overlay"></div>
+    </div>
+
+    <!-- el 0 -->
+    <div class="product">
+      <h3 id="titleWDHardDrive"></h3>
+      <img
+        src="https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+        width="60%"
+        alt="Portable External Hard Drive"
+        id="imgWDHardDrive"
+      />
+      <br />
+      <button id="cartBtnWDHardDrive">Додади во кошничка</button>
+      <p id="priceWDHardDrive"><b>Price: </b></p>
+      <p id="ratingEl0"><b>Consumer rate: </b></p>
+      <p id="descWDHardDrive"><b>Description: </b></p>
+    </div>
+    <br />
+    <!-- el 1 -->
+    <div class="product" id="sanDisk">
+      <h3 id="titleSanDisk"></h3>
+      <img
+        src="https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+        width="45%"
+        alt="SanDisk SSD PLUS 1TB"
+        id="imgSanDisk"
+      />
+      <br />
+      <button id="cartBtnSanDisk">Додади во кошничка</button>
+      <p id="priceSanDisk"><b>Price: </b></p>
+      <p id="ratingEl1"><b>Consumer rate: </b></p>
+      <p id="descSanDisk"><b>Description: </b></p>
+    </div>
+    <br />
+
+    <!-- el 2 -->
+    <div class="product">
+      <h3 id="titleSiliconPower"></h3>
+      <img
+        src="https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+        width="45%"
+        alt="Silicon Power 256GB SSD"
+        id="imgSiliconPower"
+      />
+      <br />
+      <button id="cartBtnSiliconPower">Додади во кошничка</button>
+      <p id="priceSiliconPower"><b>Price: </b></p>
+      <p id="ratingEl2"><b>Consumer rate: </b></p>
+      <p id="descSiliconPower"><b>Description: </b></p>
+    </div>
+    <br />
+
+    <!-- el 3 -->
+    <div class="product">
+      <h3 id="titlePS4HardDrive"></h3>
+      <img
+        src="https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+        width="55%"
+        alt="WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive"
+        id="imgPS4HardDrive"
+      /><br />
+      <button id="cartBtnPS4HardDrive">Додади во кошничка</button>
+      <p id="pricePS4HardDrive"><b>Price: </b></p>
+      <p id="ratingEl3"><b>Consumer rate: </b></p>
+      <p id="descPS4HardDrive"><b>Description: </b></p>
+    </div>
+    <br />
+
+    <!-- el 4 -->
+    <div class="product">
+      <h3 id="titleAcer"></h3>
+      <img
+        src="https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+        width="85%"
+        alt="Acer"
+        id="imgAcer"
+      /><br />
+      <button id="cartBtnAcer">Додади во кошничка</button>
+      <p id="priceAcer"><b>Price: </b></p>
+      <p id="ratingEl4"><b>Consumer rate: </b></p>
+      <p id="descAcer"><b>Description: </b></p>
+    </div>
+    <br />
+
+    <!-- el 5 -->
+    <div class="product">
+      <h3 id="titleSamsungMonitor"></h3>
+      <img
+        src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+        width="85%"
+        alt="Samsung Monitor"
+        id="imgSamsungMonitor"
+      /><br />
+      <button id="cartBtnSamsungMonitor">Додади во кошничка</button>
+      <p id="priceSamsungMonitor"><b>Price: </b></p>
+      <p id="ratingEl5"><b>Consumer rate: </b></p>
+      <p id="descSamsungMonitor"><b>Description: </b></p>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <footer class="footer">
+      <p>
+        &#169; <span>Made by <a href="#">Jankov V.</a></span>
+        All rights reserved.
+      </p>
+    </footer>
+    <script src="./electronics.js"></script>
+  </body>
+</html>
